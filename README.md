@@ -114,6 +114,8 @@ KB_COLLECTION=support_kb
 streamlit run app.py
 ```
 
+Then open <http://localhost:8501> in your browser.
+
 The sidebar has six one-click examples (refund question, frustrated customer, technical issue, praise, SSO setup, Arabic ticket) plus a form for writing your own ticket. The main panel shows the customer message, a plain-English step-by-step list of what each agent did, the final reply or escalation packet, and customer-health metrics. Toggle "Show technical details" in the sidebar to see classification JSON, plan, retrieved KB chunks, QA verdict, and the full trace.
 
 ### CLI
