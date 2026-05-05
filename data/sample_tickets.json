@@ -1,0 +1,72 @@
+[
+  {
+    "id": "T001",
+    "channel": "email",
+    "subject": "Refund for annual plan",
+    "body": "Hi, I subscribed to the annual plan 12 days ago but I'm not using the product as much as I thought. Can I get a refund?",
+    "customer": {
+      "id": "U-1001",
+      "name": "Layla",
+      "plan": "annual_pro",
+      "tenure_days": 12,
+      "history_summary": "First-time customer, no prior tickets."
+    }
+  },
+  {
+    "id": "T002",
+    "channel": "chat",
+    "subject": "Sync error code SYNC-409",
+    "body": "I keep seeing a sync error with code SYNC-409 in our marketing workspace. Restarting the app didn't help. This is blocking our launch tomorrow!!",
+    "customer": {
+      "id": "U-2042",
+      "name": "Omar",
+      "plan": "team",
+      "tenure_days": 410,
+      "history_summary": "Power user, 3 prior tickets all resolved."
+    },
+    "conversation_history": [
+      "Customer: it started about an hour ago",
+      "Bot: have you tried signing out and back in?",
+      "Customer: yes still broken"
+    ]
+  },
+  {
+    "id": "T003",
+    "channel": "web",
+    "subject": "Cancel my subscription — frustrated",
+    "body": "This is the third time I'm writing about being double-charged. I want to cancel right now and get my money back. If I don't hear from a real human today I'm disputing the charges with my bank.",
+    "customer": {
+      "id": "U-3300",
+      "name": "Sara",
+      "plan": "monthly_pro",
+      "tenure_days": 64,
+      "history_summary": "Two prior billing tickets in the last 30 days."
+    }
+  },
+  {
+    "id": "T004",
+    "channel": "web",
+    "subject": "How do I set up SSO with Okta?",
+    "body": "Hey team — we're rolling out the product to our org and need to get SAML SSO working with Okta. What's the process?",
+    "customer": {
+      "id": "U-4711",
+      "name": "Marcus",
+      "plan": "enterprise",
+      "tenure_days": 22,
+      "history_summary": "New enterprise customer, onboarding."
+    }
+  },
+  {
+    "id": "T005",
+    "channel": "chat",
+    "subject": "Loving it",
+    "body": "Just wanted to say the new dashboard is awesome, my team is so much faster now. Keep it up!",
+    "customer": {
+      "id": "U-5123",
+      "name": "Priya",
+      "plan": "team",
+      "tenure_days": 280,
+      "history_summary": "Engaged customer, frequent feature requests."
+    }
+  }
+]
